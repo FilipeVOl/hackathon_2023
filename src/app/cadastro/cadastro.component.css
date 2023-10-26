@@ -1,0 +1,49 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.voltar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.voltar button {
+    align-self: flex-end;
+    width: 6em;
+    height: 2em;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block; /* Cada label e input em uma nova linha */
+    margin-bottom: 10px; /* Adiciona margem inferior entre os campos de entrada */
+}
+
+input {
+    width: 20em
+}
