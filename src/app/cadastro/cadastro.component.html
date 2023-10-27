@@ -1,31 +1,29 @@
-<div class="bg-blue-base">
-<button>Voltar</button>
+<div class="flex justify-end m-5">
+<button class="flex border-2 rounded-lg p-2 border-blue-base text-xl w-40 text-blue-base justify-center">Voltar</button>
 </div>
 
-<div class="titulo">
-    <h2>Cadastro de visitantes</h2>
-    <span class="square"></span>
+
+<div class="flex items-center justify-center p-9 mt-12 flex-col" >
+    <h2>Cadastro de Visitante</h2>
+    <span class="h-24 w-24 bg-gray-div flex"></span>
 </div>
 
-<div class="forms-container">
-    <form action="">
+<div class="flex justify-center flex-col items-center">
+    <form action="" class="flex flex-col gap-3"> 
         <label for="Nome">
-            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="text" name="nome" placeholder="Nome" required class="w-80 rounded-md bg-gray-div placeholder-gray-text pl-2">
         </label>
+        
 
         <label for="CPF">
-            <input type="number" name="cpf" placeholder="CPF" required>
+            <input type="string" id="cpf" name="cpf" placeholder="CPF" required class="w-80 rounded-md bg-gray-div placeholder-gray-text pl-2">
         </label>
 
         <label for="Telefone">
-            <input type="number" name="telefone" placeholder="Telefone" required>
+            <input type="number" name="telefone" placeholder="Telefone" required class="w-80 rounded-md bg-gray-div placeholder-gray-text pl-2">
         </label>
-        <button type="submit">Confirmar</button>
+        <div class="flex justify-center">
+        <button type="submit" class="bg-blue-base text-white w-24 h-10 rounded-lg">Confirmar</button>
+        </div>
     </form>
-
-<div class="sideboard">
-    <div class="img-container">
-        <img src="/src/assets/images/image2.png" alt="base-aerea">
-    </div>
-</div>
 </div>

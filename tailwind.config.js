@@ -5,12 +5,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      color:{
+      colors:{
         'blue-base':'#050934',
+        'gray-text': '#565555',
+        'gray-div': '#D9D9D9'
       },
+      borderColor: {
+        'blue-base': '#050934'
+      }
     },
   },
   plugins: [
-    require('@tailwindcss/forms')
+
   ],
 }
