@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PreCadastroComponent } from './pre-cadastro/pre-cadastro.component';
+import { CadastroSolicitadoComponent } from './cadastro-solicitado/cadastro-solicitado.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroComponent,
-    PreCadastroComponent
+    PreCadastroComponent,
+    CadastroSolicitadoComponent
   ],
   imports: [
     BrowserModule,
